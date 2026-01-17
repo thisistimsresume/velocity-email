@@ -1,0 +1,5 @@
+{{my.replacecompany}} - 
+#if($lead.Company.contains("DefaultCompany"))
+    Your organization#elseif ($lead.Company.isEmpty())
+Your organization#else
+${lead.Company}#end

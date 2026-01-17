@@ -1,0 +1,11 @@
+{{my.CurrentYear}} - $date.format(
+
+  "yyyy",
+
+  $date,
+
+  $date.getLocale(),
+
+  $date.getTimeZone().getTimeZone("America/Chicago")
+
+)

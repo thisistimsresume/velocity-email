@@ -1,0 +1,5 @@
+{{my.replacefirstname}}
+#if($lead.FirstName.contains("DefaultFirstName"))
+    there#elseif ($lead.FirstName.isEmpty())
+there#else
+${lead.FirstName}#end
